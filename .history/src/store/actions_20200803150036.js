@@ -111,6 +111,6 @@ export default {
             // 数据更新了, 通知一下组件
             callback && callback()
         }
-    },
+    }
 
-}
+    }

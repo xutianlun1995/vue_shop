@@ -110,7 +110,6 @@ export default {
             commit(RECEIVE_GOODS, { goods })
             // 数据更新了, 通知一下组件
             callback && callback()
-        }
-    },
+        },
 
-}
+    }

@@ -36,16 +36,16 @@ export default {
         state.userInfo = {}
     },
 
-    [RECEIVE_INFO](state, { info }) {
+    [RECEIVE_INFO](state, {info}) {
         state.info = info
-    },
-
-    [RECEIVE_RATINGS](state, { ratings }) {
+      },
+    
+      [RECEIVE_RATINGS](state, {ratings}) {
         state.ratings = ratings
-    },
-
-    [RECEIVE_GOODS](state, { goods }) {
+      },
+    
+      [RECEIVE_GOODS](state, {goods}) {
         state.goods = goods
-    },
+      },
 
 }
