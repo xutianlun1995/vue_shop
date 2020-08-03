@@ -11,8 +11,6 @@ import {
     RECEIVE_GOODS,
     RECEIVE_RATINGS,
     RECEIVE_INFO,
-    INCREMENT_FOOD_COUNT,
-    DECREMENT_FOOD_COUNT,
 
 } from './mutation-types'
 import {

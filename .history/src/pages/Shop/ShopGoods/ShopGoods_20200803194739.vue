@@ -160,7 +160,7 @@
     components: {
       CartControl,
       Food,
-      ShopCart
+      //ShopCart
     }
   }
 </script>

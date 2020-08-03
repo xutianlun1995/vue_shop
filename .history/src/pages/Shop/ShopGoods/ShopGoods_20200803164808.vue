@@ -145,7 +145,7 @@
         // 立即更新scrollY(让点击的分类项成为当前分类)
         this.scrollY = scrollY
         // 平滑滑动右侧列表
-        this.foodsScroll.scrollTo(0, -scrollY, 1000)
+        this.foodsScroll.scrollTo(0, -scrollY, 300)
       },
 
       // 显示点击的food

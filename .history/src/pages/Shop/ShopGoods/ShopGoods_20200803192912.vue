@@ -55,7 +55,7 @@
   import {mapState} from 'vuex'
   import CartControl from '../../../components/CartControl/CartControl.vue'
   import Food from '../../../components/Food/Food.vue'
-  import ShopCart from '../../../components/ShopCart/ShopCart.vue'
+//   import ShopCart from '../../../components/ShopCart/ShopCart.vue'
 
 
   export default {
@@ -160,7 +160,7 @@
     components: {
       CartControl,
       Food,
-      ShopCart
+      //ShopCart
     }
   }
 </script>

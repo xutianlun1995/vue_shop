@@ -53,9 +53,9 @@
 <script>
   import BScroll from 'better-scroll'
   import {mapState} from 'vuex'
-  import CartControl from '../../../components/CartControl/CartControl.vue'
-  import Food from '../../../components/Food/Food.vue'
-  import ShopCart from '../../../components/ShopCart/ShopCart.vue'
+//   import CartControl from '../../../components/CartControl/CartControl.vue'
+//   import Food from '../../../components/Food/Food.vue'
+//   import ShopCart from '../../../components/ShopCart/ShopCart.vue'
 
 
   export default {
@@ -145,7 +145,7 @@
         // 立即更新scrollY(让点击的分类项成为当前分类)
         this.scrollY = scrollY
         // 平滑滑动右侧列表
-        this.foodsScroll.scrollTo(0, -scrollY, 1000)
+        this.foodsScroll.scrollTo(0, -scrollY, 3000)
       },
 
       // 显示点击的food
@@ -157,11 +157,11 @@
       }
     },
 
-    components: {
-      CartControl,
-      Food,
-      ShopCart
-    }
+    // components: {
+    //   CartControl,
+    //   Food,
+    //   ShopCart
+    // }
   }
 </script>
 
